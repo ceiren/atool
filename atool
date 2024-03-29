@@ -1489,11 +1489,14 @@ sub findformat($$) {
     ['lzma',           qr/\.lzma$/],
     ['lzop',           qr/\.lzo$/],
     ['rar',            qr/\.rar$/],
+    ['rar',            qr/\.cbr$/],
     ['rpm',            qr/\.rpm$/],
     ['rzip',           qr/\.rz$/],
     ['tar',            qr/\.tar$/],
+    ['tar',            qr/\.cbt$/],
     ['xz',             qr/\.xz$/],
     ['zip',            qr/\.zip$/],
+    ['zip',            qr/\.cbz$/],
     ['zstd',           qr/\.zst$/],
   );
 
